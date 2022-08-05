@@ -1,0 +1,3 @@
+Tema 1: Se pasaba por parametro un Arbol binario de enteros positivos, limite y nivel
+Este metodo suma todos los numeros impares del arbol que  son menores al limite y 
+se encuentran en un nivel inferior al nivel pasado por parametro

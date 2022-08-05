@@ -1,0 +1,22 @@
+{
+    "Jugadores": {
+    "1": {
+                      
+                      "Puntaje": 225,
+                      "Nick": "AAA"
+                      
+             },
+    "2": {
+
+                     "Puntaje": 100,
+                      "Nick": "ABC"
+      },
+    "3": {
+        "Puntaje": 10,
+        "Nick": "CCC"
+
+    }
+
+      
+      }
+}
