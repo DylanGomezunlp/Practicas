@@ -40,7 +40,7 @@ def check_all_messages(message):
             highest_prob[bot_response] = message_probability(message, list_of_words, single_response, required_words)
 
         response('Hola', ['hola'], single_response = True)
-        response('-Mensaje de la pocky-', ['contenido', 'pregunta', 'necesito', 'quiero', 'vende', 'precio', 'presio'], single_response = True)
+        response('', ['', '', '', '', '', '', ''], single_response = True)
         best_match = max(highest_prob, key=highest_prob.get)
         return unknown() if highest_prob[best_match] < 1 else best_match
 
